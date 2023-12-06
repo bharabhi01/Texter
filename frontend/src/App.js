@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import ChatHeader from "./components/ChatHeader";
 import "./App.css";
 import { connect, sendMessage } from "./api";
+import { Button } from "antd";
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +18,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={this.send}>Send Message</button>
+        <ChatHeader />
+        <Button onClick={this.send}>Send Message</Button>
       </div>
     )
   }
