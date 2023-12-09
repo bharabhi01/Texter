@@ -1,12 +1,11 @@
 import React from "react";
-import Layout from "antd/es/layout/layout";
-
-const {Header} = Layout;
+import { Button } from "antd";
 
 const ChatHeader = () => {
-    <Header>
-        Texter
-    </Header>
-}
+  <Button>
+    {console.log("Chat Header")}
+    Texter
+  </Button>;
+};
 
 export default ChatHeader;
