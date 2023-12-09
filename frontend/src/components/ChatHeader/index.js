@@ -1,3 +1,3 @@
-import ChatHeader from "./ChatHeader.jsx";
+import ChatHeader from "./ChatHeader";
 
 export default ChatHeader;

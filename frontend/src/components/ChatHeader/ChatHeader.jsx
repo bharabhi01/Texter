@@ -1,11 +1,10 @@
 import React from "react";
-import { Button } from "antd";
 
 const ChatHeader = () => {
-  <Button>
+  <div>
     {console.log("Chat Header")}
-    Texter
-  </Button>;
+    <h2>Texter</h2>
+  </div>;
 };
 
 export default ChatHeader;
